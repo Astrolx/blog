@@ -1,0 +1,53 @@
+body {
+	margin-left: 20px;
+	color: #555555;
+	font-family: 微软雅黑;
+}
+span[name="title"] {
+	font-weight: bold;
+	font-size: 14px;
+	color: #0099D5;
+}
+.forbid .skip {
+	width: 100%;
+  	height: 37px;
+  	background: #F1F7FD;
+  	padding-left: 1px;
+  	margin-bottom: 10px;
+  	margin-top: 10px;
+}
+.forbid .skip span {
+	color: #0099CC;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 37px;
+}
+.forbid .list li {
+	font-size: 13px;
+}
+.forbid table td {
+	height: 34px;
+	font-size: 12px;
+	border-top: 1px dotted #DEEFFB;
+}
+.forbid table input {
+	width: 45px;
+	height: 23px;
+	margin-right: 15px;
+	background: #F9F9F9;
+}
+.forbid table td[name='sort'] {
+	width: 80px;
+}
+.forbid table td[name='adresseip'] {
+	width: 598px;
+}
+.forbid table td[name='starttime'] {
+	width: 200px;
+}
+.forbid table td[name='endtime'] {
+	width: 200px;
+}
+.forbid table tr:hover {
+	background: #F2F9FD;
+}

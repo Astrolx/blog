@@ -1,0 +1,87 @@
+body {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 11px;
+	color: #555555;
+	font-family: 微软雅黑;
+}
+
+span[name="title"] {
+	color: #0099D5;
+	font-size: 14px;
+}
+.links .skill p {
+	color: #0099CC;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 37px;
+}
+.links .skill {
+  width: 100%;
+  height: 37px;
+  background: #F1F7FD;
+  padding-left: 1px;
+  margin-bottom: 10px;
+}
+
+.links table input[type="text"] {
+	background: #F5F9FD;
+}
+
+.links table th {
+	font-size: 12px;
+	padding-right: 65px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px dotted #DEEFFB;
+}
+.links table td{
+	padding-right: 65px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-top: 1px dotted #DEEFFB;
+	font-size: 11px;
+	color: #FF6600;
+}
+
+.links table input[name="order[]"] {
+	width: 48px;
+	height: 19px; 
+}
+.links table input[name="sitename[]"] {
+	width: 106px;
+	height: 19px; 
+}
+.links table input[name="siteurl[]"] {
+	width: 106px;
+	height: 19px; 
+}
+.links table input[name="description[]"] {
+	width: 278px;
+	height: 19px; 
+}
+.links table input[name="logoaddress[]"] {
+	width: 106px;
+	height: 19px; 
+}
+.links table[name="tb"] {
+	padding-left: 19px;
+}
+
+.links table[name="tb"] .add {
+	width: 15px;
+	height: 15px;
+	background: url(../images/bg_repno.gif) no-repeat 0px 2px;
+	float: left;
+}
+.links table[name="tb"] span {
+	display: block;
+	float: left;
+	margin-left: 3px;
+}
+.links table[name="tb"] span:hover {
+	text-decoration: underline;
+}
+.links table tr:hover {
+	background: #F2F9FD;
+}

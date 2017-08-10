@@ -1,0 +1,67 @@
+body {
+	margin-left: 20px;
+	color: #555555;
+	font-family: 微软雅黑;
+}
+
+span[name="title"] {
+	font-weight: bold;
+	font-size: 14px;
+	color: #0099D5;
+}
+.member .record {
+	width: 100%;
+  	height: 37px;
+  	background: #F1F7FD;
+  	padding-left: 1px;
+  	margin-bottom: 10px;
+}
+.member .record p {
+	color: #0099CC;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 0px;
+}
+.member table td {
+	font-size: 13px;
+	border-top: 1px dotted #DEEFFB;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.member table th {
+	font-size: 13px;
+	border-top: 1px dotted #DEEFFB;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.member table td[name="checkbox"] {
+	width: 40px;
+	height: 36px;
+}
+.member table td[name="username"] {
+	width: 119px;
+	height: 36px;
+	color: #7C66AA;
+}
+.member table td[name="score"] {
+	width: 84px;
+	height: 36px;
+}
+.member table td[name="time"] {
+	width: 340px;
+	height: 36px;
+}
+.member table td[name="usertype"] {
+	width: 140px;
+	height: 36px;
+	font-weight: bold;
+}
+.member table .details {
+	padding-right: 10px;
+	text-decoration: underline;
+	color: #2366A8;
+}
+.member table tr:hover {
+	background: #F1F7FD;
+}

@@ -1,0 +1,85 @@
+body {
+	margin-left: 20px;
+	color: #555555;
+	font-family: 微软雅黑;
+	
+	
+}
+span[name="title"] {
+	font-weight: bold;
+	font-size: 14px;
+	color: #0099D5;
+}
+.module {
+	margin-top: 20px;
+}
+.module .sort {
+	width: 59px;
+	height: 32px;
+	
+}
+.module .modulename {
+	width: 59px;
+	height: 9px;
+	
+	margin-left: 30px;
+}
+.module .moderator {
+	width: 59px;
+	height: 32px;
+	font-size: 11px;
+	margin-right:740px;
+}
+
+.module .listI {
+	
+	clear: both;
+	margin-top: 10px;
+	clear:both;
+}
+.module .listI .orderby {
+	width: 47px;
+	height: 19px;
+	margin-right: 20px;
+}
+.module .listI .classname {
+	width: 107px;
+	height: 19px;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: '微软雅黑';
+}
+
+
+.module .listII {
+	
+	clear: both;
+	width:1500px;
+}
+.module .listII input {
+	margin-top: 10px;
+	font-family: '微软雅黑';
+	font-size: 11px;
+}
+
+.module .listII .orderby {
+	width: 47px;
+	height: 19px;
+}
+.module .listII .classname {
+	width: 121px;
+	height: 19px;
+	margin-left: 70px;
+	margin-right: 690px;
+}
+.module .listII .compere {
+	width: 107px;
+	height: 19px;
+}
+.module .commit input {
+	
+	clear: both;
+	margin-top: 10px;
+}
+
+

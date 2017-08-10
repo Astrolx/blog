@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin-left: 20px;
+	font-family: 微软雅黑;
+	font-size: 13px;
+}
+.wrap .wtitle {
+	font-size: 13px;
+	font-weight: bold;
+	color: #4FC2ED;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.wrap .username {
+	margin-bottom: 10px;
+}
+.wrap .username span {
+	font-weight: bold;
+	padding-top: 20px;
+}
+.wrap .detailname, 
+.wrap .headportrait,
+.wrap .detailhead,
+.wrap .newpwd,
+.wrap .detailpwd,
+.wrap .clear,
+.wrap .clearbool,
+.wrap .lockuser,
+.wrap .lockbool {
+	margin-bottom: 10px;
+}
+.wrap .basedata li .data {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.wrap .basedata li .detaildata {
+	margin-bottom: 10px;
+}
+.wrap .basedata li .detaildata input, 
+.wrap .detailpwd input {
+	width: 256px;
+}
+.wrap .clearbool label:hover,
+.wrap .lockbool label:hover {
+	color: #00DD00;
+}
+
+.wrap .clearbool span {
+	font-size: 11px;
+	margin-left: 370px;
+}
+.wrap .detailpwd span {
+	font-size: 11px;
+	margin-left: 170px;
+}
+.wrap .fillscore span {
+	font-size: 11px;
+	margin-left: 250px;
+}
+.wrap .scorenum {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.wrap .detailpwd span:hover,
+.wrap .fillscore span:hover,
+.wrap .clearbool span:hover {
+	color: red;
+}
+
+.wrap .signer {
+	margin-bottom: 10px;
+}
+
+.wrap .basedata li {
+	list-style-type: none;
+
+}
+.wrap .scorepunish {
+	width: 98%;
+	height: 36px;
+	background: #F2F8FD;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	line-height: 36px;
+	padding-left: 3px;
+
+}
+.wrap .scorepunish span {
+	font-weight: bold;
+	color: #0099CC;
+
+}
+.wrap .userprogram li {
+	list-style-type: none;
+}
+.wrap .userprogram li .data {
+	font-weight: bold;
+	padding-top: 10px;
+}
+.wrap .userprogram li .detaildata {
+	padding-top: 10px;
+}
+.wrap .userprogram li input[type="submit"] {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}

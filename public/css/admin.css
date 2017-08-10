@@ -1,0 +1,78 @@
+body,div,ul,li {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 微软雅黑;
+}
+a{
+	text-decoration: none;
+	color: #666666;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.super {
+	background: #EEF6FC;
+	width: 100%;
+	height: 100%;
+}
+.super img {
+	display: block;
+	float: left;
+	margin: 11px;
+}
+.super .userinfo {
+	float: right;
+	margin-top: 11px;
+}
+.super .userinfo .sitetext {
+	width: 65px;
+	height: 30px;
+	background: url(../images/bg_repno.gif) no-repeat -49px -148px;
+	float: right;
+	margin-top: -9px;
+	padding-top: 10px;
+	padding-left: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+.super .userinfo span {
+	font-size: 13px;
+}
+.super .userinfo a {
+	font-size: 13px;
+	
+}
+.super ul li{
+	float: left;
+	list-style-type: none;
+	margin-top: 50px;
+	padding-right: 10px;
+	padding-left: 10px;
+	/*background: yellow;*/
+	width: 66px;
+	height: 38px;
+}
+.super ul li a {
+	line-height: 38px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.super ul li:hover {
+	background: black;
+}
+
+.super ul li a:hover{
+	color: #FFFFF4;
+}
+.super ul .space {
+	padding: 0;
+	width: 1px;
+	height: 10px;
+	background: #6AB725;
+	margin-top: 65px;
+}

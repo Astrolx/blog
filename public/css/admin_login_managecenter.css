@@ -1,0 +1,68 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: '微软雅黑';
+	font-size: 11px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.lowrap {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.lowrap .login_title {
+	position: absolute;
+	left: 331px;
+	top: 159px;
+}
+
+
+.lowrap .login_title span {
+	display: block;
+	width: 310px;
+	margin-top: 10px;
+	line-height: 18px;
+}
+.lowrap .loginform {
+	position: absolute;
+	top: 138px;
+	left: 708px;
+}
+
+
+.lowrap .loginform li {
+	list-style-type: none;
+	height: 25px;
+}
+.lowrap .loginform li span {
+	margin-left: -12px;
+}
+.lowrap .loginform li input[type="submit"] {
+	margin-left: 30px;
+}
+
+.lowrap .loginform li select {
+	width: 173px;
+}
+
+.lowrap .loshadow {
+	width: 18px;
+	height: 119px;
+	background: url(../images/bg_login.gif) no-repeat 0 0;
+	position: absolute;
+	left: 675px;
+	top: 138px;
+}
+.lowrap .banquan {
+	position: absolute;
+	left: 480px;
+	top: 508px;
+}
